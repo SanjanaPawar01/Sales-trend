@@ -1,0 +1,22 @@
+# Task 6: Sales Trend Analysis Using Aggregations
+
+## Objective
+Analyze monthly revenue and order volume using SQL (SQLite).
+
+## Steps Performed
+- Created `online_sales` table
+- Inserted sample data
+- Used `strftime()` to extract year and month
+- Grouped by year/month
+- Aggregated using `SUM()` and `COUNT(DISTINCT order_id)`
+- Ordered results chronologically
+
+## Output
+| Year | Month | Revenue | Orders |
+|------|--------|---------|--------|
+| 2023 | 01     | 350.00  | 2      |
+| 2023 | 02     | 400.00  | 2      |
+| 2023 | 03     | 170.00  | 1      |
+
+## Tools Used
+- SQLite v3.49.1 (Command Line)
